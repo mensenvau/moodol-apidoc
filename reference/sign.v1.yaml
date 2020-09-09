@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: sign
+  version: '1.0'
+  contact:
+    email: alekasandir@gmail.com
+  description: 'Sign qismi '
+  license: {}
+servers:
+  - url: 'http://qaydnoma.buxdu.uz:5050'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    fam:
+      name: 'requierd , max , min'
+      type: apiKey
+      in: query
+    'ismi ':
+      name: API Key
+      type: apiKey
+      in: query
+    API Key - 1:
+      name: zcxfvd
